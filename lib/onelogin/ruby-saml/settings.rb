@@ -49,6 +49,9 @@ module OneLogin
       attr_accessor :passive
       attr_accessor :destination_validator
       attr_accessor :recipient_validator
+      attr_accessor :private_key
+      attr_accessor :private_key_pass
+      attr_accessor :certificate
       
       private
 
